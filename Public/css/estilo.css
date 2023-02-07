@@ -1,0 +1,27 @@
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: #4f51c0;
+}
+
+.pagination > li > a {
+
+	background-color: #495057;
+	color: white;
+}
+
+.pagination > li > a:hover {
+
+	background-color: #f8f9fa;
+	color:  black;
+}
+
+.pagination > .active > a {
+
+	color: black !important;
+	background-color: #e9ecef !important;
+	border: solid 1px black !Important;
+}
